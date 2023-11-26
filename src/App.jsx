@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <input onKeyUp={(e) => setPeso(e.target.value)} type="number" placeholder="Digite o PESO" />
-      <input onKeyUp={(e) => setAltura(e.target.value)} type="number" placeholder="Digete a ALTURA" />
+      <input onKeyUp={(e) => setAltura(e.target.value)} type="number" placeholder="Digite a ALTURA" />
       {calculaImc()}
     </>
   )
